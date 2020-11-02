@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">  
+  <test name="注册">       
+    <classes>
+      <class name="com.chen.cases.ResgisterCases"/>
+    </classes>
+     <parameter name="sheetIndex" value="0"></parameter>
+  </test> <!-- Test -->
+   <test name="登录">       
+    <classes>
+      <class name="com.chen.cases.LoginCases"/>
+    </classes>
+     <parameter name="sheetIndex" value="1"></parameter>
+  </test> <!-- Test -->
+  <test name="配置列表">   
+     <classes>
+      <class name="com.chen.cases.ConfiguresCases"/>
+    </classes>
+     <parameter name="sheetIndex" value="2"></parameter>
+  </test> <!-- Test -->
+  <test name="项目列表">       
+    <classes>
+      <class name="com.chen.cases.ProjectCases"/>
+    </classes>
+     <parameter name="sheetIndex" value="3"></parameter>
+  </test> <!-- Test -->
+  <test name="新增项目">       
+    <classes>
+      <class name="com.chen.cases.AddCases"/>
+    </classes>
+     <parameter name="sheetIndex" value="4"></parameter>
+  </test> <!-- Test -->
+  
+  
+  </suite> <!-- Suite -->
+<!-- 放在不同Test下，参数就不共享，代码更加灵活 -->
